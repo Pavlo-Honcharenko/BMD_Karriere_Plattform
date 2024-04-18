@@ -630,6 +630,14 @@ textarea.input {
   align-items: center;
   gap: 8px
 }
+#fileList {
+  padding-top: 6px
+}
+#fileList li {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 12px 0 0
+}
 @media (min-width:99.125em) {
   .checkbox__label:before {
     margin-top: .4375rem
@@ -737,6 +745,9 @@ textarea.input {
     font-size: 1.4375rem
   }
   .checkbox__text {
+    font-size: 1.4375rem
+  }
+  #fileList {
     font-size: 1.4375rem
   }
 }
@@ -861,7 +872,10 @@ textarea.input {
     font-size: 1rem
   }
   .checkbox__text {
-    font-size: 1rem
+    font-size: .9375rem
+  }
+  #fileList {
+    font-size: .9375rem
   }
 }
 @media (max-width:47.99875em) {
@@ -1335,14 +1349,24 @@ textarea.input {
       font-size: calc(1rem + .4375 * (100vw - 20rem)/ 79.125)
     }
   }
-  @supports (font-size:clamp(1rem ,0.8894154818rem + 0.5529225908vw ,1.4375rem)) {
+  @supports (font-size:clamp(0.9375rem ,0.8111176935rem + 0.6319115324vw ,1.4375rem)) {
     .checkbox__text {
-      font-size: clamp(1rem ,.8894154818rem + .5529225908vw ,1.4375rem)
+      font-size: clamp(.9375rem ,.8111176935rem + .6319115324vw ,1.4375rem)
     }
   }
-  @supports not (font-size:clamp(1rem ,0.8894154818rem + 0.5529225908vw ,1.4375rem)) {
+  @supports not (font-size:clamp(0.9375rem ,0.8111176935rem + 0.6319115324vw ,1.4375rem)) {
     .checkbox__text {
-      font-size: calc(1rem + .4375 * (100vw - 20rem)/ 79.125)
+      font-size: calc(.9375rem + .5 * (100vw - 20rem)/ 79.125)
+    }
+  }
+  @supports (font-size:clamp(0.9375rem ,0.8111176935rem + 0.6319115324vw ,1.4375rem)) {
+    #fileList {
+      font-size: clamp(.9375rem ,.8111176935rem + .6319115324vw ,1.4375rem)
+    }
+  }
+  @supports not (font-size:clamp(0.9375rem ,0.8111176935rem + 0.6319115324vw ,1.4375rem)) {
+    #fileList {
+      font-size: calc(.9375rem + .5 * (100vw - 20rem)/ 79.125)
     }
   }
 }
@@ -1374,7 +1398,7 @@ textarea.input {
     transform: scale(1.3)
   }
   .pagging__item:hover {
-    font-weight: 700
+    font-weight: 600
   }
   ._active:hover {
     font-weight: 400
