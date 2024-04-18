@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240418102628">
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="/" class="header__logo"><img src="img/logo-header.svg" alt="logo"></a>
+			</div>
+		</header>
+		<main class="page">
+
+
+			<!-- SECTION MAIN -->
+			<section class="main">
+				<div class="main-image">
+					<img src="img/image-01.jpg" alt="image">
+				</div>
+				<div class="main__container">
+					<h1 class="main__title">
+						Dein Job bei <span>Unternehmen</span>!
+					</h1>
+					<div class="main__description">
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+					</div>
+				</div>
+			</section>
+			<!-- End of SECTION MAIN -->
+
+
+			<!-- SECTION filters -->
+			<section class="filters">
+				<div class="filters__container">
+					<div class="filters__row">
+						<!-- Filters: -->
+						<div class="filters__col filters__col--1">
+							<img src="img/icon-filter.svg" class="icon-filters-mobile" alt="filters">
+
+							<div class="filter">
+								<div class="filter__title">
+									<div class="title-text">Dienstort</div>
+									<div class="filter__options">
+										<div class="options-wrapper">
+											<div class="checkbox">
+												<input id="checkbox_1_1" class="checkbox__input" type="checkbox" value="Linz" name="filter[]">
+												<label for="checkbox_1_1" class="checkbox__label"><span class="checkbox__text">Linz</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_1_2" class="checkbox__input" type="checkbox" value="Sierning" name="filter[]">
+												<label for="checkbox_1_2" class="checkbox__label"><span class="checkbox__text">Sierning</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_1_3" class="checkbox__input" type="checkbox" value="Steyr" name="filter[]">
+												<label for="checkbox_1_3" class="checkbox__label"><span class="checkbox__text">Steyr</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<div class="filter__title">
+									<div class="title-text">Wochenstunden</div>
+									<div class="filter__options">
+										<div class="options-wrapper">
+											<div class="checkbox">
+												<input id="checkbox_2_1" class="checkbox__input" type="checkbox" value="Vollzeit" name="filter[]">
+												<label for="checkbox_2_1" class="checkbox__label"><span class="checkbox__text">Vollzeit</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_2_2" class="checkbox__input" type="checkbox" value="Teilzeit" name="filter[]">
+												<label for="checkbox_2_2" class="checkbox__label"><span class="checkbox__text">Teilzeit</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<div class="filter__title">
+									<div class="title-text">Anstellungsart</div>
+									<div class="filter__options">
+										<div class="options-wrapper">
+											<div class="checkbox">
+												<input id="checkbox_3_1" class="checkbox__input" type="checkbox" value="Festanstellung" name="filter[]">
+												<label for="checkbox_3_1" class="checkbox__label"><span class="checkbox__text">Festanstellung</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_3_2" class="checkbox__input" type="checkbox" value="Praktikum" name="filter[]">
+												<label for="checkbox_3_2" class="checkbox__label"><span class="checkbox__text">Praktikum</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<div class="filter__title">
+									<div class="title-text">Berufsfeld</div>
+									<div class="filter__options">
+										<div class="options-wrapper">
+											<div class="checkbox">
+												<input id="checkbox_4_1" class="checkbox__input" type="checkbox" value="IT & Telekommunikation" name="filter[]">
+												<label for="checkbox_4_1" class="checkbox__label"><span class="checkbox__text">IT & Telekommunikation</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_4_2" class="checkbox__input" type="checkbox" value="Medien & Information" name="filter[]">
+												<label for="checkbox_4_2" class="checkbox__label"><span class="checkbox__text">Medien & Information</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_4_3" class="checkbox__input" type="checkbox" value="Marketing & Werbung" name="filter[]">
+												<label for="checkbox_4_3" class="checkbox__label"><span class="checkbox__text">Marketing & Werbung</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_4_4" class="checkbox__input" type="checkbox" value="Grafikdesign & Content Creation" name="filter[]">
+												<label for="checkbox_4_4" class="checkbox__label"><span class="checkbox__text">Grafikdesign & Content Creation</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<div class="filter__title">
+									<div class="title-text">Filteroption</div>
+									<div class="filter__options">
+										<div class="options-wrapper">
+											<div class="checkbox">
+												<input id="checkbox_5_1" class="checkbox__input" type="checkbox" value="Option" name="filter[]">
+												<label for="checkbox_5_1" class="checkbox__label"><span class="checkbox__text">Option</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_5_2" class="checkbox__input" type="checkbox" value="Option" name="filter[]">
+												<label for="checkbox_5_2" class="checkbox__label"><span class="checkbox__text">Option</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<div class="filter__title">
+									<div class="title-text">Filteroption</div>
+									<div class="filter__options">
+										<div class="options-wrapper">
+											<div class="checkbox">
+												<input id="checkbox_6_1" class="checkbox__input" type="checkbox" value="Option" name="filter[]">
+												<label for="checkbox_6_1" class="checkbox__label"><span class="checkbox__text">Option</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_6_2" class="checkbox__input" type="checkbox" value="Option" name="filter[]">
+												<label for="checkbox_6_2" class="checkbox__label"><span class="checkbox__text">Option</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<div class="filter__title">
+									<div class="title-text">Filteroption</div>
+									<div class="filter__options">
+										<div class="options-wrapper">
+											<div class="checkbox">
+												<input id="checkbox_7_1" class="checkbox__input" type="checkbox" value="Option" name="filter[]">
+												<label for="checkbox_7_1" class="checkbox__label"><span class="checkbox__text">Option</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_7_2" class="checkbox__input" type="checkbox" value="Option" name="filter[]">
+												<label for="checkbox_7_2" class="checkbox__label"><span class="checkbox__text">Option</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filter">
+								<div class="filter__title">
+									<div class="title-text">Filteroption</div>
+									<div class="filter__options">
+										<div class="options-wrapper">
+											<div class="checkbox">
+												<input id="checkbox_8_1" class="checkbox__input" type="checkbox" value="Option" name="filter[]">
+												<label for="checkbox_8_1" class="checkbox__label"><span class="checkbox__text">Option</span></label>
+											</div>
+											<div class="checkbox">
+												<input id="checkbox_8_2" class="checkbox__input" type="checkbox" value="Option" name="filter[]">
+												<label for="checkbox_8_2" class="checkbox__label"><span class="checkbox__text">Option</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+						</div>
+						<!-- End of Filters -->
+
+						<!-- Content after filtering -->
+						<div class="filters__col filters__col--2">
+							<div class="cards">
+								<div class="card">
+									<div class="card__title">
+										Softwareentwickler*in für Business Software
+									</div>
+									<div class="card__info-line info-line">
+										<div class="info-line__col">
+											<img src="img/icon-time.svg" alt="time">
+											<div class="info-line__text">
+												40h/Vollzeit
+											</div>
+										</div>
+										<div class="info-line__col">
+											<img src="img/icon-location.svg" alt="location">
+											<div class="info-line__text">
+												Steyr
+											</div>
+										</div>
+									</div>
+									<div class="card__text">
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+									</div>
+									<div class="card__button">
+										<a href="" class="button">Mehr erfahren</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__title">
+										Softwareentwickler*in für Business Software
+									</div>
+									<div class="card__info-line info-line">
+										<div class="info-line__col">
+											<img src="img/icon-time.svg" alt="time">
+											<div class="info-line__text">
+												40h/Vollzeit
+											</div>
+										</div>
+										<div class="info-line__col">
+											<img src="img/icon-location.svg" alt="location">
+											<div class="info-line__text">
+												Steyr
+											</div>
+										</div>
+									</div>
+									<div class="card__text">
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+									</div>
+									<div class="card__button">
+										<a href="" class="button">Mehr erfahren</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__title">
+										Softwareentwickler*in für Business Software
+									</div>
+									<div class="card__info-line info-line">
+										<div class="info-line__col">
+											<img src="img/icon-time.svg" alt="time">
+											<div class="info-line__text">
+												40h/Vollzeit
+											</div>
+										</div>
+										<div class="info-line__col">
+											<img src="img/icon-location.svg" alt="location">
+											<div class="info-line__text">
+												Steyr
+											</div>
+										</div>
+									</div>
+									<div class="card__text">
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+									</div>
+									<div class="card__button">
+										<a href="" class="button">Mehr erfahren</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__title">
+										Softwareentwickler*in für Business Software
+									</div>
+									<div class="card__info-line info-line">
+										<div class="info-line__col">
+											<img src="img/icon-time.svg" alt="time">
+											<div class="info-line__text">
+												40h/Vollzeit
+											</div>
+										</div>
+										<div class="info-line__col">
+											<img src="img/icon-location.svg" alt="location">
+											<div class="info-line__text">
+												Steyr
+											</div>
+										</div>
+									</div>
+									<div class="card__text">
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+									</div>
+									<div class="card__button">
+										<a href="" class="button">Mehr erfahren</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card__title">
+										Softwareentwickler*in für Business Software
+									</div>
+									<div class="card__info-line info-line">
+										<div class="info-line__col">
+											<img src="img/icon-time.svg" alt="time">
+											<div class="info-line__text">
+												40h/Vollzeit
+											</div>
+										</div>
+										<div class="info-line__col">
+											<img src="img/icon-location.svg" alt="location">
+											<div class="info-line__text">
+												Steyr
+											</div>
+										</div>
+									</div>
+									<div class="card__text">
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+									</div>
+									<div class="card__button">
+										<a href="" class="button">Mehr erfahren</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- Pagination -->
+							<div class="pagging">
+								<a href="" class="pagging__arrow pagging__arrow--prev">
+									<img src="img/icon-arrow-grey.svg" alt="">
+								</a>
+								<ul class="pagging__list">
+									<li>
+										<a href="" class="pagging__item _active">1</a>
+									</li>
+									<li>
+										<a href="" class="pagging__item">2</a>
+									</li>
+									<li>
+										<a href="" class="pagging__item">3</a>
+									</li>
+									<li>
+										<a href="" class="pagging__item">4</a>
+									</li>
+									<li>
+										<a href="" class="pagging__item">5</a>
+									</li>
+								</ul>
+								<a href="" class="pagging__arrow pagging__arrow--next">
+									<img src="img/icon-arrow-grey.svg" alt="">
+								</a>
+							</div>
+							<!-- End of Pagination -->
+
+						</div>
+						<!-- End of Content after filtering -->
+					</div>
+				</div>
+			</section>
+			<!-- End of SECTION filters -->
+
+
+
+			<!-- SECTION last -->
+			<section class="last">
+				<div class="last__container">
+					<div class="last__image">
+						<img src="img/image-02.jpg" alt="image">
+					</div>
+					<div class="last__title">
+						Nichts gefunden?
+					</div>
+					<div class="last__description">
+						Dann schick uns jetzt deine Initiativbewerbung!
+					</div>
+					<div class="last__text">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laboriosam repellendus tempore quam esse totam, iste pariatur incidunt ea autem a voluptatibus est porro laudantium ullam quidem! Accusantium, recusandae corrupti?</p>
+					</div>
+					<div class="last__button">
+						<a href="" class="button">Mehr erfahren</a>
+					</div>
+				</div>
+			</section>
+			<!-- End of SECTION last -->
+
+
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row footer__row--top">
+					<a href=""><img src="img/logo-footer.svg" alt="logo"></a>
+					<a href=""><img src="img/logo-syreta.svg" alt="logo"></a>
+				</div>
+				<div class="footer__row">
+					<div class="footer__col footer__col--address">
+						<div>Musterfirma GmbH</div>
+						<div>Musterstraße 1</div>
+						<div>1234 Musterstadt</div>
+						<div>Österreich</div>
+					</div>
+					<div class="footer__col footer__col--nav">
+						<div><a href="">Über uns</a></div>
+						<div><a href="">Datenschutz</a></div>
+						<div><a href="">Impressum</a></div>
+					</div>
+					<div class="footer__col footer__col--social">
+						<div class="footer__title">
+							Social Media
+						</div>
+						<aside class="social-links">
+							<div class="social-links__col">
+								<div><a href=""><img src="img/logo-linkedin.svg" alt="logo">LinkedIn</a></div>
+								<div><a href=""><img src="img/logo-facebook.svg" alt="logo">Facebook</a></div>
+								<div><a href=""><img src="img/logo-stepstone.svg" alt="logo">Stepstone</a></div>
+							</div>
+							<div class="social-links__col">
+								<div><a href=""><img src="img/logo-karriere.svg" alt="logo">karriere.at</a></div>
+								<div><a href=""><img src="img/logo-instagram.svg" alt="logo">Instagram</a></div>
+								<div><a href=""><img src="img/logo-tiktok.svg" alt="logo">TikTok</a></div>
+							</div>
+						</aside>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240418102628"></script>
+</body>
+
+</html>
