@@ -1403,4 +1403,7 @@ textarea.input {
   ._active:hover {
     font-weight: 400
   }
+  .filter__title .title-text:hover {
+    cursor: pointer
+  }
 }
